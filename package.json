@@ -11,8 +11,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "vercel-build": "npm run build",
-    "postinstall": "npm rebuild esbuild"
+    "vercel-build": "pnpm build",
+    "postinstall": "pnpm rebuild esbuild"
   },
   "engines": {
     "node": "20.x",

@@ -10,6 +10,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "vercel-build": "npm run build"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
   }
 }

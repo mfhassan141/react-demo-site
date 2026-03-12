@@ -5,16 +5,20 @@
   "dependencies": {
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "5.1.1",
     "lucide-react": "0.576.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "vercel-build": "npm run build"
+    "vercel-build": "npm run build",
+    "postinstall": "npm rebuild esbuild"
   },
   "engines": {
     "node": "20.x",
     "npm": "10.x"
+  },
+  "resolutions": {
+    "esbuild": "^0.17.19"
   }
 }
